@@ -2,7 +2,7 @@
 """
 Created on Wed May 29 12:47:49 2019
 
-@author: YUSS
+@author: YUSS, INBAL WEISS
 """
 
 """Build IRCNN"""
