@@ -89,7 +89,7 @@ def envelope(y, rate, threshold):
 
 
 
-
+#wav files list
 wavs = []
 for route,dirs,files in os.walk(r'G:\KAGGLE_COMPTS\Freesound Audio Tagging 2019\audio'):
     wavs = files
@@ -139,9 +139,7 @@ for i in range(0,len(wavs)):
 #mfccs = a[()]
 #np.save('./mfccs', mfccs)
 
-x={'new':1,'old':2,'used':3}
-y={'blakc':0,'white':255}
-z={**x,**y}
+
 
 
 
